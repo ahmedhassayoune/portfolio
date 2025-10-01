@@ -129,7 +129,27 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             href="#about"
             class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
             >About</a
-          >
+            >
+            {
+              hasEducation && (
+                <a
+                  href="#education"
+                  class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+                >
+                  Education
+                </a>
+              )
+            }
+          {
+            hasExperience && (
+              <a
+              href="#experience"
+              class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+              >
+                Experience
+              </a>
+            )
+          }
           {
             hasProjects && (
               <a
@@ -137,26 +157,6 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
               >
                 Projects
-              </a>
-            )
-          }
-          {
-            hasExperience && (
-              <a
-                href="#experience"
-                class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
-              >
-                Experience
-              </a>
-            )
-          }
-          {
-            hasEducation && (
-              <a
-                href="#education"
-                class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
-              >
-                Education
               </a>
             )
           }
