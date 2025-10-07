@@ -53,7 +53,8 @@ export const siteConfig = {
           "Developed a 3D generative model for pulmonary nodule synthesis in CT imaging",
           "Designed conditioning methods to control generation along morphological and pathological aspects",
           "Created synthetic CT scans and enhanced detection model performance",
-          "Annotated over 1,300 lung nodules (3D segmentation and labeling) to enrich training datasets.",
+          "Annotated over 1,300 lung nodules (3D segmentation and labeling) to enrich training datasets",
+          "Collaborated with an R&D team (AI researchers, clinicians) and presented findings in internal seminars",
         ],
       },
       {
@@ -61,10 +62,10 @@ export const siteConfig = {
         title: "Full-Stack Web Development Internship",
         dateRange: "Sep 2023 - Feb 2024 (6 months)",
         bullets: [
-          "Developed a visualization interface for smartphone camera scoring",
-          "Migrated the existing application from Vue 2 to Vue 3 (20+ dependencies)",
-          "Designed and implemented the backend, integrated into existing architecture",
-          "Collaborated in a Scrum team with engineers and professional photographers",
+          "Developed a visualization interface for smartphone camera scoring used by engineers and product teams",
+          "Migrated a large-scale app from Vue 2 to Vue 3 (20+ dependencies)",
+          "Designed and implemented backend services, integrated into an existing modular architecture",
+          "Contributed in an Agile Scrum team with developers, and image QA engineers, improving release cycles",
         ],
       },
     ],
@@ -86,7 +87,7 @@ export const siteConfig = {
       {
         name: "Implementation of SIFT Algorithm",
         description:
-          "Implemented from scratch the SIFT algorithm in C++ for robust feature detection and matching in images. Optimized the implementation for real-time processing, enabling efficient and rapid feature detection and matching.",
+          "Implemented from scratch the SIFT algorithm in C++ for robust feature detection and matching in images. Optimized the implementation for real-time processing, enabling efficient and rapid feature detection and matching.\nApplied to automatic stitching of fragmented images for scene reconstruction.",
         link: "https://github.com/ahmedhassayoune/sift-project",
         skills: ["C++", "Computer Vision", "Feature Detection and Matching", "Real-Time Optimization"],
       },
