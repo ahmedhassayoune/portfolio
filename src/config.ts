@@ -7,7 +7,7 @@ export const siteConfig = {
     email: "ahmed.hassayoune@gmail.com",
     linkedin: "https://linkedin.com/in/ahmed-hassayoune",
     github: "https://github.com/ahmedhassayoune",
-    cv: "/portfolio/cv.pdf",
+    cv: "/cv.pdf",
   },
   aboutMe:
     "I am a graduate of EPITA and Sorbonne University, where I completed a double degree Master's program specializing in image processing, computer vision, and medical imaging.\n\nWhat drives me is the opportunity to bridge AI with real-world healthcare applications. I aspire to design and deploy solutions that make medical diagnostics faster, more reliable, and accessible to patients and practitioners worldwide.",

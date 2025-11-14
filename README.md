@@ -4,7 +4,7 @@ A modern, minimalist portfolio template built with Astro and Tailwind CSS.
 
 ## Preview
 
-To view a live preview of the site, [click here](https://ahmedhassayoune.github.io/portfolio/).
+To view a live preview of the site, [click here](https://portfolio.ahassayoune.com).
 
 ## Built With
 
